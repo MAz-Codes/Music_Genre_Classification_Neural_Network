@@ -26,6 +26,15 @@ This repository contains a series of Python scripts focused on audio signal proc
 - Compiles, trains, and validates the model.
 - This module can be run directly to train a model on a default dataset.
 
+### 4. solving_overfitting.py
+
+- Introduces a more robust neural network architecture designed to mitigate overfitting issues.
+- Incorporates dropout layers and L2 regularization in the neural network to enhance generalization.
+- Utilizes Mel-frequency cepstral coefficients (MFCCs) extracted from audio files as input features.
+- Loads data, splits it into training and testing sets, and then trains the neural network model.
+- Visualizes the model's training progress in terms of accuracy and error metrics over epochs using matplotlib.
+- This module emphasizes best practices in neural network design to ensure that the model generalizes well to new, unseen data.
+
 ## Usage:
 
 ## 1. Audio Visualization
@@ -72,6 +81,17 @@ Then run the script:
 
 ```
 $ python audio_classifier.py
+
+```
+
+### 4. solving_overfitting.py
+
+This script provides an enhanced neural network model with dropout and L2 regularization for better generalization. The model is trained and validated on MFCCs extracted from audio files. The progress of training in terms of accuracy and loss metrics is visualized using matplotlib.
+
+To run the script and train the model, use:
+
+```
+$ python solving_overfitting.py
 
 ```
 
