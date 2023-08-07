@@ -84,7 +84,7 @@ $ python audio_classifier.py
 
 ```
 
-### 4. solving_overfitting.py
+### 4. Solving the Overfitting Problem
 
 This script provides an enhanced neural network model with dropout and L2 regularization for better generalization. The model is trained and validated on MFCCs extracted from audio files. The progress of training in terms of accuracy and loss metrics is visualized using matplotlib.
 
