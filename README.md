@@ -1,4 +1,4 @@
-# Audio Processing and Genre Classification
+# Audio Processing and Genre Classification using Machine Learning
 
 This repository contains a series of Python scripts focused on audio signal processing, feature extraction, and genre classification using neural networks.
 
@@ -37,7 +37,7 @@ This repository contains a series of Python scripts focused on audio signal proc
 
 ## Usage:
 
-## 1. Audio Visualization
+### 1. Audio Visualization
 
 To visualize the audio signal and its frequency representations, run the audio_classifier.py script. Make sure to set the correct path for the audio file you want to process.
 
@@ -45,7 +45,7 @@ To visualize the audio signal and its frequency representations, run the audio_c
 file = "path_to_your_audio_file.wav"
 ```
 
-## 2. Audio Feature Extraction
+### 2. Audio Feature Extraction
 
 To extract MFCCs from a dataset of audio files and save the results in a JSON file, run the audio_preprocess.py script.
 
@@ -65,7 +65,7 @@ $ python audio_preprocess.py
 
 ```
 
-## 3. Audio Genre Classification
+### 3. Audio Genre Classification
 
 To train a neural network for genre classification, run the audio_classifier.py script.
 
