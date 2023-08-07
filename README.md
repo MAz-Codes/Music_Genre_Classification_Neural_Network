@@ -26,7 +26,7 @@ This repository contains a series of Python scripts focused on audio signal proc
 - Compiles, trains, and validates the model.
 - This module can be run directly to train a model on a default dataset.
 
-### 4. solving_overfitting.py
+### solving_overfitting.py
 
 - Introduces a more robust neural network architecture designed to mitigate overfitting issues.
 - Incorporates dropout layers and L2 regularization in the neural network to enhance generalization.
